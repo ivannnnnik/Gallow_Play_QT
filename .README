@@ -1,0 +1,6 @@
+'python -m venv venv' - установка виртуального окружения
+'venv\Scripts\activate.bat' - активация виртуального окружения
+'pip install -r requirements.txt' - установка зависимостей
+
+
+

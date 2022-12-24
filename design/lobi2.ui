@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1029</width>
+    <height>723</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	color: #4169E1;
+	background-color: #ADD8E6;
+	font-family: Rubik;
+	font-size: 16pt;
+	font-weight: 600;
+}
+
+QPushButton {
+	background-color: #1E90FF;
+	border: none;
+}
+QPushButton:hover {
+	background-color: #00BFFF;
+}
+
+QPushButton:pressed {
+	background-color:#0000FF;
+}
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="start_game">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>310</y>
+      <width>841</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start the game</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="message">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>1021</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Rubik</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Chat</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1030</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Gallows</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	color: #4169E1;
+	background-color: #ADD8E6;
+	font-family: Rubik;
+	font-size: 16pt;
+	font-weight: 600;
+}
+
+QPushButton {
+	background-color: #1E90FF;
+	border: none;
+}
+QPushButton:hover {
+	background-color: #00BFFF;
+}
+
+QPushButton:pressed {
+	background-color:#0000FF;
+}
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="status">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>300</y>
+      <width>1031</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>We have some time to wait...</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1030</width>
+    <height>722</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Gallows</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	color: #4169E1;
+	background-color: #ADD8E6;
+	font-family: Rubik;
+	font-size: 16pt;
+	font-weight: 600;
+}
+
+QPushButton {
+	background-color: #1E90FF;
+	border: none;
+}
+QPushButton:hover {
+	background-color: #00BFFF;
+}
+
+QPushButton:pressed {
+	background-color:#0000FF;
+}
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="status">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>20</y>
+      <width>861</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mode selection</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="play_btn">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>360</y>
+      <width>1051</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Learn the word</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="play_btn_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>530</y>
+      <width>1031</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Guess a word</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>130</y>
+      <width>751</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="play_btn_4">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>220</y>
+      <width>751</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Play</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

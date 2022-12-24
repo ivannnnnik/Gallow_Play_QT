@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1197</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	color: white;
+	background-color: #121212;
+	font-family: Rubik;
+	font-size: 16pt;
+	font-weight: 600;
+}
+QPushButton {
+	background-color: green;
+	border: none;
+}
+QPushButton:hover {
+	background-color: #7CFC00;
+}
+
+QPushButton:pressed {
+	background-color: #228B22;
+}
+
+pushButton {
+	background-color: white;
+	border: none;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>280</y>
+      <width>571</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ИГРАТЬ</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>1181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ВЫ ПРОИГРАЛИ/ПОБУДИЛИ</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>1181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ВИСЕЛИЦА</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>280</y>
+      <width>571</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ВЫЙТИ</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>200</y>
+      <width>311</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ЗАГАДAННОЕ СЛОВО: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="word">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>200</y>
+      <width>311</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>WORD</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1195</width>
+    <height>827</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Gallows</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	color: white;
+	background-color: #121212;
+	font-family: Rubik;
+	font-size: 16pt;
+	font-weight: 600;
+}
+QPushButton {
+	background-color: green;
+	border: none;
+}
+QPushButton:hover {
+	background-color: #7CFC00;
+}
+
+QPushButton:pressed {
+	background-color: #228B22;
+}
+
+pushButton {
+	background-color: white;
+	border: none;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>1191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="text">
+     <string>ВИСЕЛИЦА</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="status">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>250</y>
+      <width>1181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ОЖИДАЙТЕ</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="status_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>330</y>
+      <width>1181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ИГРА СКОРО НАЧНЕТСЯ</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
